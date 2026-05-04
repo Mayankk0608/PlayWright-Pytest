@@ -4,14 +4,14 @@ A browser‑testing framework built with **Playwright**, **pytest**, and **Pytho
 
 ## 🧰 Tools & Technologies
 
-| Category       | Tool / Library                               |
-|:---------------|:---------------------------------------------|
-| Automation     | [Playwright](https://playwright.dev/python/) |
-| Test Runner    | [pytest](https://docs.pytest.org/)           |
-| Reporting      | pytest-html, built‑in screenshots & videos   |
-| Language       | Python 3.x                                   |
-| Environment    | venv (Ubuntu WSL & Windows PowerShell)       |
-| Version Control| Git, GitHub, GitLab                           |
+| Category       | Tool / Library                                          |
+|:---------------|:--------------------------------------------------------|
+| Automation     | [Playwright](https://playwright.dev/python/)            |
+| Test Runner    | [pytest](https://docs.pytest.org/)                      |
+| Reporting      | pytest-html, built‑in screenshots & videos              |
+| Language       | Python 3.x                                              |
+| Environment    | venv (Ubuntu WSL & Windows PowerShell)                  |
+| Version Control| Git, GitHub, GitLab                                     |
 | Containerised App Under Test | Django‑Notes‑App (Docker, Docker‑Compose) |
 
 ## 📁 Project Structure
@@ -66,18 +66,18 @@ source venv/bin/activate       # Linux/WSL
 
 ## 📜 Key Commands Used
 
-Purpose	                                                    Command
-Activate venv (Linux)	                            source venv/bin/activate
-Activate venv (Windows)	                            ./venv/Script/Activate
-Install packages	                                pip install -r requirements.txt
-Freeze dependencies	                                pip freeze | tee requirements.txt
-Run all tests (with config)	                        pytest
-Run a single test file	                            pytest tests/test_google.py
-Run with screenshots & video	                    pytest --headed --screenshot=on --video=on --html=reports/report.html
-Git workflow	                                    git init → git remote add origin <url> → git add . → git commit -m "..." → git push -u origin main
-Undo staged files	                                git restore --staged <file>
-Ignore tracked files later	                        git rm -r --cached <path>
-List ignored files	                                git status --ignored
+Purpose	                             ➪                       Command
+Activate venv (Linux)	             ➪               source venv/bin/activate
+Activate venv (Windows)	             ➪               ./venv/Script/Activate
+Install packages	                 ➪               pip install -r requirements.txt
+Freeze dependencies	                 ➪               pip freeze | tee requirements.txt
+Run all tests (with config)	         ➪               pytest
+Run a single test file	             ➪               pytest tests/test_google.py
+Run with screenshots & video	     ➪               pytest --headed --screenshot=on --video=on --html=reports/report.html
+Git workflow	                     ➪               git init → git remote add origin <url> → git add . → git commit -m "..." → git push -u origin main
+Undo staged files	                 ➪               git restore --staged <file>
+Ignore tracked files later	         ➪               git rm -r --cached <path>
+List ignored files	                 ➪               git status --ignored
 
 
 ## 🚀 How This Connects to Cloud/Infra & DevOps
