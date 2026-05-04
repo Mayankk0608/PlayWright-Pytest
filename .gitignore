@@ -12,7 +12,3 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-tests/
-*.pytest_cache
-*__pycache__
-
