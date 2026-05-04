@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+tests/
+*.pytest_cache
+*__pycache__
+
